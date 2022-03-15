@@ -14,6 +14,12 @@
 		CE57175B27DF934E00E272F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE57175A27DF934E00E272F5 /* Assets.xcassets */; };
 		CE57175E27DF934E00E272F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE57175C27DF934E00E272F5 /* LaunchScreen.storyboard */; };
 		CE57176927DFB12F00E272F5 /* CombineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57176827DFB12F00E272F5 /* CombineVC.swift */; };
+		CE6464ED27E0C8160006CDD4 /* CombineCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6464EC27E0C8160006CDD4 /* CombineCardView.swift */; };
+		CE6464F027E0CBB40006CDD4 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6464EF27E0CBB40006CDD4 /* UIView.swift */; };
+		CE6464F227E0CF510006CDD4 /* UiLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6464F127E0CF510006CDD4 /* UiLabel.swift */; };
+		CE6464F727E0D5C30006CDD4 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6464F627E0D5C30006CDD4 /* Usuario.swift */; };
+		CE6464FA27E0D6D40006CDD4 /* UsuarioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6464F927E0D6D40006CDD4 /* UsuarioService.swift */; };
+		CE6464FC27E0E0580006CDD4 /* UiImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6464FB27E0E0580006CDD4 /* UiImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		CE57175D27DF934E00E272F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE57175F27DF934E00E272F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE57176827DFB12F00E272F5 /* CombineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineVC.swift; sourceTree = "<group>"; };
+		CE6464EC27E0C8160006CDD4 /* CombineCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCardView.swift; sourceTree = "<group>"; };
+		CE6464EF27E0CBB40006CDD4 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = ../../../../Downloads/UIView.swift; sourceTree = "<group>"; };
+		CE6464F127E0CF510006CDD4 /* UiLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiLabel.swift; sourceTree = "<group>"; };
+		CE6464F627E0D5C30006CDD4 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		CE6464F927E0D6D40006CDD4 /* UsuarioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioService.swift; sourceTree = "<group>"; };
+		CE6464FB27E0E0580006CDD4 /* UiImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,10 @@
 		CE57175027DF934900E272F5 /* Tinder */ = {
 			isa = PBXGroup;
 			children = (
+				CE6464F827E0D6BE0006CDD4 /* Service */,
+				CE6464F427E0D5850006CDD4 /* Modell */,
+				CE6464EE27E0CB6B0006CDD4 /* Lib */,
+				CE6464EB27E0C7F70006CDD4 /* View */,
 				CE57176727DFB10F00E272F5 /* Controller */,
 				CE57175127DF934900E272F5 /* AppDelegate.swift */,
 				CE57175327DF934900E272F5 /* SceneDelegate.swift */,
@@ -76,6 +92,40 @@
 				CE57176827DFB12F00E272F5 /* CombineVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE6464EB27E0C7F70006CDD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE6464EC27E0C8160006CDD4 /* CombineCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE6464EE27E0CB6B0006CDD4 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				CE6464EF27E0CBB40006CDD4 /* UIView.swift */,
+				CE6464F127E0CF510006CDD4 /* UiLabel.swift */,
+				CE6464FB27E0E0580006CDD4 /* UiImageView.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		CE6464F427E0D5850006CDD4 /* Modell */ = {
+			isa = PBXGroup;
+			children = (
+				CE6464F627E0D5C30006CDD4 /* Usuario.swift */,
+			);
+			path = Modell;
+			sourceTree = "<group>";
+		};
+		CE6464F827E0D6BE0006CDD4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CE6464F927E0D6D40006CDD4 /* UsuarioService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +199,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6464FC27E0E0580006CDD4 /* UiImageView.swift in Sources */,
+				CE6464FA27E0D6D40006CDD4 /* UsuarioService.swift in Sources */,
+				CE6464F727E0D5C30006CDD4 /* Usuario.swift in Sources */,
 				CE57176927DFB12F00E272F5 /* CombineVC.swift in Sources */,
+				CE6464F227E0CF510006CDD4 /* UiLabel.swift in Sources */,
 				CE57175627DF934900E272F5 /* ViewController.swift in Sources */,
+				CE6464ED27E0C8160006CDD4 /* CombineCardView.swift in Sources */,
 				CE57175227DF934900E272F5 /* AppDelegate.swift in Sources */,
+				CE6464F027E0CBB40006CDD4 /* UIView.swift in Sources */,
 				CE57175427DF934900E272F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
