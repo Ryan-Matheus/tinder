@@ -134,6 +134,7 @@ extension CombineVC {
             print("woow")
             
             let matchVC = MatchVC()
+            matchVC.usuario = usuario
             matchVC.modalPresentationStyle = .fullScreen
             
             self.present(matchVC, animated: true, completion: nil)
