@@ -113,6 +113,12 @@ extension CombineVC {
             return usuario.id != card.tag
         })
     }
+    
+    func verificarMatch (usuario: Usuario) {
+        if usuario.match {
+            print("woow")
+        }
+    }
 }
 
 extension CombineVC {
@@ -202,6 +208,10 @@ center = CGPoint(x: card.center.x + self.view.bounds.width, y: card.center.y + 5
                             card.deslikeImageView.alpha = like == false ? 1 : 0
                             card.likeImageView.alpha = like == true ? 1 : 0
                         }) { (_) in
+                            
+                            if like {
+                                self.verificarMatch(usuario: usuario)
+                            }
                             self.removerCard(card: card)
                         }
                     }
