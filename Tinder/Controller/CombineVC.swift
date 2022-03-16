@@ -31,8 +31,12 @@ class CombineVC: UIViewController {
         
         navigationController?.navigationBar.isHidden = true
         view.backgroundColor = UIColor.systemGroupedBackground
+        
+        let loading = Loading(frame: view.frame)
+        view.insertSubview(loading, at: 0)
+        
         self.adicionarFooter()
-        self.buscaUsuarios()
+//        self.buscaUsuarios()
         self.adicionarHeader()
     }
     
@@ -103,7 +107,7 @@ extension CombineVC {
         
         card.addGestureRecognizer(gesture)
         
-            view.insertSubview(card, at: 0)
+            view.insertSubview(card, at: 1)
         }
     }
     func removerCard (card: UIView) {
