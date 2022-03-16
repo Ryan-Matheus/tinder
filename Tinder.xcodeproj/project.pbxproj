@@ -20,6 +20,7 @@
 		CE6464F727E0D5C30006CDD4 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6464F627E0D5C30006CDD4 /* Usuario.swift */; };
 		CE6464FA27E0D6D40006CDD4 /* UsuarioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6464F927E0D6D40006CDD4 /* UsuarioService.swift */; };
 		CE6464FC27E0E0580006CDD4 /* UiImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6464FB27E0E0580006CDD4 /* UiImageView.swift */; };
+		CE6464FE27E0EA910006CDD4 /* UiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6464FD27E0EA910006CDD4 /* UiButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		CE6464F627E0D5C30006CDD4 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		CE6464F927E0D6D40006CDD4 /* UsuarioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioService.swift; sourceTree = "<group>"; };
 		CE6464FB27E0E0580006CDD4 /* UiImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiImageView.swift; sourceTree = "<group>"; };
+		CE6464FD27E0EA910006CDD4 /* UiButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				CE6464EF27E0CBB40006CDD4 /* UIView.swift */,
 				CE6464F127E0CF510006CDD4 /* UiLabel.swift */,
 				CE6464FB27E0E0580006CDD4 /* UiImageView.swift */,
+				CE6464FD27E0EA910006CDD4 /* UiButton.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				CE57176927DFB12F00E272F5 /* CombineVC.swift in Sources */,
 				CE6464F227E0CF510006CDD4 /* UiLabel.swift in Sources */,
 				CE57175627DF934900E272F5 /* ViewController.swift in Sources */,
+				CE6464FE27E0EA910006CDD4 /* UiButton.swift in Sources */,
 				CE6464ED27E0C8160006CDD4 /* CombineCardView.swift in Sources */,
 				CE57175227DF934900E272F5 /* AppDelegate.swift in Sources */,
 				CE6464F027E0CBB40006CDD4 /* UIView.swift in Sources */,
