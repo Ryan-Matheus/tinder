@@ -222,7 +222,7 @@ center = CGPoint(x: card.center.x + self.view.bounds.width, y: card.center.y + 5
                         }
                         
                         
-                        UIView.animate(withDuration: 0.2, animations: {
+                        UIView.animate(withDuration: 0.6, animations: {
                             card.center = center
                             card.transform = CGAffineTransform(rotationAngle: rotationAngle)
                             
