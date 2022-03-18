@@ -14,6 +14,7 @@
 		CE57175B27DF934E00E272F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE57175A27DF934E00E272F5 /* Assets.xcassets */; };
 		CE57175E27DF934E00E272F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE57175C27DF934E00E272F5 /* LaunchScreen.storyboard */; };
 		CE57176927DFB12F00E272F5 /* CombineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57176827DFB12F00E272F5 /* CombineVC.swift */; };
+		CE604F0A27E379DD00ABB8E8 /* DetalheVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE604F0927E379DD00ABB8E8 /* DetalheVC.swift */; };
 		CE6464ED27E0C8160006CDD4 /* CombineCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6464EC27E0C8160006CDD4 /* CombineCardView.swift */; };
 		CE6464F027E0CBB40006CDD4 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6464EF27E0CBB40006CDD4 /* UIView.swift */; };
 		CE6464F227E0CF510006CDD4 /* UiLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6464F127E0CF510006CDD4 /* UiLabel.swift */; };
@@ -35,6 +36,7 @@
 		CE57175D27DF934E00E272F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE57175F27DF934E00E272F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE57176827DFB12F00E272F5 /* CombineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineVC.swift; sourceTree = "<group>"; };
+		CE604F0927E379DD00ABB8E8 /* DetalheVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheVC.swift; sourceTree = "<group>"; usesTabs = 0; };
 		CE6464EC27E0C8160006CDD4 /* CombineCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCardView.swift; sourceTree = "<group>"; };
 		CE6464EF27E0CBB40006CDD4 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = ../../../../Downloads/UIView.swift; sourceTree = "<group>"; };
 		CE6464F127E0CF510006CDD4 /* UiLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiLabel.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				CE57176827DFB12F00E272F5 /* CombineVC.swift */,
 				CE64650127E2725C0006CDD4 /* MatchVC.swift */,
+				CE604F0927E379DD00ABB8E8 /* DetalheVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				CE57176927DFB12F00E272F5 /* CombineVC.swift in Sources */,
 				CE6464F227E0CF510006CDD4 /* UiLabel.swift in Sources */,
 				CE57175627DF934900E272F5 /* ViewController.swift in Sources */,
+				CE604F0A27E379DD00ABB8E8 /* DetalheVC.swift in Sources */,
 				CE6464FE27E0EA910006CDD4 /* UiButton.swift in Sources */,
 				CE6464ED27E0C8160006CDD4 /* CombineCardView.swift in Sources */,
 				CE57175227DF934900E272F5 /* AppDelegate.swift in Sources */,
